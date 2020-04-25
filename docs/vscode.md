@@ -1,4 +1,4 @@
-# Installing VSCode on Ubuntu 20.04 using the Snap package manager  
+# Installing VSCode using the Snap package manager  
 
 Referencing these instructions: https://snapcraft.io/install/code/ubuntu  
 
