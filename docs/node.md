@@ -1,7 +1,7 @@
 # Installing Node and npm  
 
-Make sure `curl` is installed on your machine:  
-`sudo apt install curl`  
+Make sure `curl`, `python`, and `build-essential` are installed on your machine:  
+`sudo apt install curl python build-essential`  
 
 ## Using nvm
 
@@ -32,21 +32,3 @@ Check that `node` and `npm` have been installed:
 
 You can also check the versions you've installed with `nvm` using:  
 `nvm list`  
-
-## Using a package manager
-
-Per the instructions here:  
-https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions-enterprise-linux-fedora-and-snap-packages
-
-Navigate to the NodeSource GitHub project for instructions on installing a specific version of Node:  
-https://github.com/nodesource/distributions/blob/master/README.md
-
-For Node 12.x, add the NodeSource PPA using the following `curl` command:  
-`curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -`
-
-Install Node using the `apt` package manager:  
-`sudo apt-get install -y nodejs`  
-
-Check that `node` and `npm` have been installed:  
-`node -v`  
-`npm -v`
